@@ -36,6 +36,23 @@ The REST API to the example app is described below.
     }
 ```
 
+### Request Close project
+`PUT /project/close/{project_name}`
+#### Response
+```json
+    {
+        "name": "projecto_2",
+        "totalTime": 3,
+        "currentStatus": "CLOSE",
+        "segments": [
+            {
+            "dateClose": "2021-08-18 19:34:37",
+            "spendTime": 3
+            }
+        ]
+    }
+```
+
 
 ### Request get all close projects
 `GET /project`
