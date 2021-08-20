@@ -32,7 +32,7 @@ router.put(
       spendTime: minRoud,
     });
     project.save();
-    res.status(200).send(project);
+    res.status(201).send(project);
   }
 );
 export { router as closeProjectRouter };
