@@ -10,6 +10,11 @@ The REST API to the example app is described below.
     npm run dev
 ```
 
+### Test
+```bash
+    npm run test
+```
+
 
 ### Base URL
 `http://localhost:3000`
